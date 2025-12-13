@@ -1,0 +1,24 @@
+public class f_strings_methods {
+    public static void main ( String [] args){
+        String name = "Pankaj" ; // This is the method of creating the string
+
+        //Method1 - used for finding the length of the string....
+        int value = name.length();
+        System.out.println(value);
+
+        
+        //Method2 - used to return the new string by converting the upper case letter to the lower case letter..
+        String lstring = name.toLowerCase();
+        System.out.println(lstring);
+
+        //Method3 - used to return the new string by converting the lower case to the upper case .
+        String upperstring = name.toUpperCase();
+        System.out.println(upperstring);
+
+        //Method4 - This is used to remove all the leading and trailing spaces from the original string.....
+    
+        String Non_TrimmedString = "         Pankaj        ";
+        String Trimmed_String = Non_TrimmedString.trim();
+        System.out.println(Trimmed_String);
+    }
+}
